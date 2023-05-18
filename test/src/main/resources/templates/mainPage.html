@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>개인페이지 test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="main.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="header">
+    중고거래 플랫폼 <img src="고수.jpg" class="logo" type="button" form="..."/> Minty
+    <ul class="list-group" id="test1">
+        <li class="list-group-item" type="button" form="...">팝니다</li>
+        <li class="list-group-item" type="button" form="...">삽니다</li>
+        <li class="list-group-item" type="button" form="...">알바구함</li>
+    </ul>
+</div>
+<div class="ad">
+    더미광고 <br><br><img src="고수.jpg" class="logo">
+</div>
+
+<div class="card" style="width: 18rem">
+    <h3>최근게시물</h3>
+    <img src="고수.jpg" class="card-img-top" alt="..." />
+    <div class="card-body">
+        <h5 class="card-title">최근게시물 보여주는 더미데이터 title</h5>
+        <p class="card-text">최근게시물 더미데이터 text</p>
+        <a href="#" class="btn btn-primary">더보기</a>
+    </div>
+</div>
+
+<div id="foot">
+    <section>
+        <!-- 대충 뭐 요소들이 가득차있음 -->
+    </section>
+    <footer>
+        <p>
+            <span>저자 : 박호진</span><br />
+            <span>Copyright 1996. 바코진. All Rights Reserved.</span><br/>
+        <h2 style="font-weight: bolder;">박호진사랑하는사람모임 박사모</h2>
+        </p>
+    </footer>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(".header").on("mouseover", function () {
+    $(".list-group").addClass("show");
+    });
+
+  $(".header").on("mouseout", function () {
+    $(".list-group").removeClass("show");
+    });
+  </script>
+</body>
+</html>
